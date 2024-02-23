@@ -159,7 +159,7 @@ section.welcome form button {
 
 section.sponsors {
     margin-top: 188px;
-    padding-inline: 100px;
+    padding-inline: 50px;
 }
 
 section.sponsors .spIn {
@@ -167,4 +167,100 @@ section.sponsors .spIn {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+}
+
+section.farmVest {
+    width: 1420px;
+    margin: auto;
+    margin-top: 196px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+section.farmVest .fv-left h2 {
+    font-family: league spartan;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 71.68px;
+    color: #263238;
+    margin-bottom: 32px;
+}
+
+section.farmVest .fv-left h2 span {
+    color: #008000;
+    font-family: lato;
+    line-height: 76.8px;
+}
+
+section.farmVest .fv-left p {
+    font-size: 18px;
+    font-weight: 400;
+    font-family: league spartan;
+    line-height: 31.86px;
+    color: #263238;
+    letter-spacing: 1px;
+}
+
+section.farmVest .fv-left .fv-inner {
+    margin-top: 48px;
+    height: 584px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+section.farmVest .fv-left .fv-inner .fv-grid {
+    width: 440px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+section.farmVest .fv-left .fv-inner .fv-grid .fv-grid-text .fv-t-big {
+    font-size: 20px;
+    font-weight: 700;
+    font-family: league spartan;
+    line-height: 22.4px;
+    color: #263238;
+    margin-bottom: 16px;
+}
+
+section.farmVest .fv-left .fv-inner .fv-grid .fv-grid-text p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 31.4px;
+}
+
+section.pathWay {
+    width: 1390px;
+    margin: auto;
+}
+
+section.pathWay .pathWay-inner {
+    margin-top: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+section.pathWay .pathWay-inner .path-right h2 {
+    color: #263238;
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 78.4px;
+    font-family: league spartan;
+}
+
+section.pathWay .pathWay-inner .path-right h2 span {
+    color: #008000;
+}
+
+section.pathWay .pathWay-inner .path-right p {
+    margin-top: 32px;
+    color: #263238;
+    font-family: league spartan;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 31.86px;
 }
