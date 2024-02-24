@@ -15,6 +15,16 @@
     border: 1px solid red;
 }
 
+.logo-bg {
+    position: absolute;
+    margin-top: -60px;
+    z-index: 1;
+}
+
+.logo {
+    z-index: 999;
+}
+
 header {
     margin-top: 60px;
 }
@@ -264,3 +274,252 @@ section.pathWay .pathWay-inner .path-right p {
     font-weight: 400;
     line-height: 31.86px;
 }
+
+.select-section {
+    height: 318px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 48px;
+}
+
+.select select {
+    -webkit-appearance:none;
+    -moz-appearance:none;
+    -ms-appearance:none;
+    appearance:none;
+    outline:0;
+    box-shadow:none;
+    border:0!important;
+    background: #0080000D;
+    flex: 1;
+    color: #263238;
+    cursor:pointer;
+    font-size: 24px;
+    line-height: 42.48px;
+    font-weight: 400;
+    font-family: league spartan;
+    padding-left: 30px;
+ }
+ .select select::-ms-expand {
+    display: none;
+ }
+ .select {
+    position: relative;
+    display: flex;
+    width: 600px;
+    height: 90px;
+    background: #0080000D;
+    overflow: hidden;
+    border-radius: .25em;
+ }
+ .select::after {
+    content: '\2304';
+    position: absolute;
+    top: -10px;
+    right: 0;
+    width: 40px;
+    height: 90px;
+    font-size: 60px;
+    color: #008000;
+    cursor:pointer;
+    pointer-events:none;
+    transition:.25s all ease;
+ }
+ .select:hover::after {
+    color: #263238;
+ }
+
+ section.farm {
+    margin-top: 200px;
+ }
+
+ section.farm .farm-flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1420px;
+    margin: auto;
+ }
+
+ section.farm .farm-flex .farm-left h2 {
+    font-family: league spartan;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 78.4px;
+    color: #263238;
+ }
+
+ section.farm .farm-flex .farm-left h2 span {
+    color: #008000;
+ }
+
+ section.farm .farm-flex .farm-left p {
+    color: #263238;
+    font-size: 18px;
+    font-family: league spartan;
+    font-weight: 400;
+    line-height: 31.86px;
+    margin-top: 32px;
+ }
+
+ section.farm .farm-flex .farm-left .farm-list {
+    height: 404px;
+    display: flex;
+    flex-direction:  column;
+    justify-content: space-between;
+    margin-top: 48px;
+    margin-bottom: 55px;
+ }
+
+ section.farm .farm-flex .farm-left .farm-list .farm-li-inner {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+ }
+
+ section.farm .farm-flex .farm-left .farm-list .farm-li-inner .farm-num {
+    font-size: 36px;
+    color: #008000;
+    font-weight: 700;
+    font-family: league spartan;
+    line-height: 40.32px;
+    background-color: #0080000D;
+    border-radius: 100%;
+    height: 63px;
+    width: 64px;
+    text-align: center;
+    padding-block: 15px;
+    margin-right: 50px;
+ }
+
+ section.farm .farm-flex .farm-left .farm-list .farm-li-inner p {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 22.4px;
+    font-family: league spartan;
+ }
+
+ section.farm .farm-flex .farm-left a {
+    background-color: #008000;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 20.16px;
+    font-family: league spartan;
+    padding-block: 22px;
+    padding-inline: 55px;
+    color: #ffffff;
+    border-radius: 10px;
+ }
+
+ section.costumers {
+    width: 1420px;
+    margin: 200px auto 0; 
+ }
+
+ section.costumers .costumer-inner {
+    text-align: center;
+ }
+
+ section.costumers .costumer-inner h2 {
+    font-family: league spartan;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 78.4px;
+    color: #263238;
+    text-align: center;
+ }
+
+ section.costumers .costumer-inner h2 span {
+    color: #008000;
+ }
+
+ section.costumers .costumer-inner p {
+    font-size: 18px;
+    font-family: league spartan;
+    font-weight: 400;
+    line-height: 31.86px;
+    color: #263238;
+    text-align: center;
+    margin-top: 32px;
+ }
+
+ section.costumers .costumer-inner .people {
+    display: flex;
+    justify-content: space-between;
+    margin-block: 48px;
+ }
+
+ section.costumers .costumer-inner .people .people-inner {
+    width: 686px;
+    background-color: #0080000D;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+ }
+
+ section.costumers .costumer-inner .people .people-inner .ptext {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+ }
+
+ section.costumers .costumer-inner .people .people-inner .ptext p {
+    text-align: left;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: league spartan;
+    line-height: 31.86px;
+    color: #263238;
+    padding-left: 32px;
+    padding-bottom: 32px;
+ }
+
+ section.costumers .costumer-inner .people .people-inner .ptext .pname {
+    font-weight: 600;
+
+ }
+
+ section.costumers .costumer-inner a {
+    background-color: #008000;
+    color: #ffffff;
+    border-radius: 10px;
+    font-family: league spartan;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 20.16px;
+    padding-inline: 70px;
+    padding-block: 22px;
+    width: 221px;
+    text-align: center;
+ }
+
+ section.farmVest-app {
+    width: 1406px;
+    background-image: url(../img/app-bg.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #0080000D;
+    text-align: center;
+    margin: 200px auto 200px;
+ }
+
+ section.farmVest-app h2 {
+    font-family: league spartan;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 62.72px;
+    padding-top: 72px;
+ }
+
+ section.farmVest-app h2 span {
+    color: #008000;
+ }
+
+ section.farmVest-app .app-downloads {
+    width: 364px;
+    margin: 48px auto 0;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 64px;
+ }
