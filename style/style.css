@@ -12,7 +12,6 @@
 .container {
     width: 100%;
     padding-inline: 150px;
-    border: 1px solid red;
 }
 
 .logo-bg {
@@ -523,3 +522,151 @@ section.pathWay .pathWay-inner .path-right p {
     justify-content: space-between;
     padding-bottom: 64px;
  }
+
+ footer {
+    background-color: #F2F8F280;
+ }
+
+ section.footer {
+    padding-block: 68px 56px;
+    margin: auto;
+    max-width: 1620px;
+    padding-inline: 20px;
+ }
+
+ section.footer .footer-top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 100px;
+ }
+
+ section.footer .footer-top .ft-text p {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 31.86px;
+    color: #263238;
+    font-family: league spartan;
+ }
+
+ section.footer .footer-top .ft-sub p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 31.86px;
+    color: #263238;
+    font-family: league spartan;
+ }
+
+ section.footer .footer-top .ft-sub form {
+    width: 533px;
+    background: #2632381A;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-radius: 10px;
+    padding: 6px;
+    margin-top: 24px;
+}
+
+section.footer .footer-top .ft-sub form input[type=email] {
+    height: 76px;
+    width: 350px;
+    padding-inline: 25px;
+    font-size: 22px;
+    font-family: league spartan;
+    font-weight: 500;
+    line-height: 20.16px;
+    color: #263238;
+    background: transparent;
+    border: none;
+    outline: none;
+}
+
+section.footer .footer-top .ft-sub form input[type=email]::placeholder {
+    font-family: league spartan;
+    font-weight: 500;
+    line-height: 20.16px;
+    color: #263238;
+}
+
+section.footer .footer-top .ft-sub form button {
+    font-size: 18px;
+    line-height: 20.16px;
+    font-weight: 500;
+    font-family: league spartan;
+    color: #ffffff;
+    background-color: #008000;
+    border-radius: 10px;
+    padding-inline: 25px;
+    padding-block: 22px;
+    border: none;
+    cursor: pointer;
+}
+
+section.footer .footer-top .ft-social {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 363px;
+}
+
+section.footer .footer-top .ft-social .fu-soc {
+    width: 176px;
+    display: flex;
+    justify-content: space-between;
+}
+
+section.footer .footer-top .ft-social .ft-soc-p {
+    font-size: 16px;
+    font-weight: 700;
+    font-family: league spartan;
+    color: #263238;
+    line-height: 17.92px;
+    margin-bottom: 24px;
+}
+
+section.footer .footer-top .ft-social .call-us .ft-num {
+    font-family: roboto;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18.75px;
+    color: #263238;
+}
+
+section.footer .line {
+    padding-inline: 150px;
+    height: 1px;
+    width: 100%;
+    background-color: #2632384F;
+    margin-bottom: 56px;
+}
+
+section.footer .footer-bott {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+section.footer .footer-bott p {
+    font-size: 12px;
+    font-family: league spartan;
+    font-weight: 300;
+    line-height: 13.44px;
+    color: #263238;
+}
+
+section.footer .footer-bott nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 602px;
+}
+
+section.footer .footer-bott nav ul li a {
+    color: #263238;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: league spartan;
+    line-height: 15.68px;
+}
